@@ -5,8 +5,15 @@ jQuery(function($) {'use strict',
 		$('#main-slider.carousel').carousel({
 			interval: 8000
 		});
-	});
+	});	
 
+	//#promotion-slider
+	$(function(){
+		$('#promotion-slider.carousel').carousel({
+			interval: 8000
+		});
+	});
+	
 
 	// accordian
 	$('.accordion-toggle').on('click', function(){
@@ -19,6 +26,7 @@ jQuery(function($) {'use strict',
 
 	//Initiat WOW JS
 	new WOW().init();
+
 
 	// portfolio filter
 	$(window).load(function(){'use strict';
