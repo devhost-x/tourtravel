@@ -2513,10 +2513,11 @@ shortcodes page css
 }
 
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 61px;
+  padding-top: 20px;
+  /*padding-bottom: 30px;*/
   color: #fff;
-  background: #2e2e2e;
+  background: url(../images/footer-bg.png);
 }
 
 #footer a {
