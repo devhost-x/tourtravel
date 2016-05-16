@@ -62,7 +62,7 @@ hr {
 
 
 .btn-primary {
-  padding: 5px 20px;
+  padding: 6px 20px;
   background: #fd9536;
   color: #fff;
   border-radius: 4px;
@@ -368,7 +368,7 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 #main-slider .carousel .slide-margin{
@@ -498,6 +498,10 @@ input.search-form:hover {
   border: 1px solid #c52d2f;
   left: -3px;
   top: -3px;
+}
+
+#main-slider .carousel-inner {
+  height: 522px;
 }
 
 #main-slider .active .animation.animated-item-1 {
