@@ -731,10 +731,13 @@ input.search-form:hover {
 
 #promotion-slider {
   position: relative;
+  background: #eaebf3;
 }
 
 #promotion-slider .carousel {
-  padding-bottom: 7%;
+  /*padding-bottom: 7%;*/
+  width: 85%;
+  margin: 0 auto;  
 }
 
 .no-margin {
@@ -772,14 +775,14 @@ input.search-form:hover {
 #promotion-slider .carousel .item {
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   left: 0 !important;
   opacity: 0;
   top: 0;
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 500px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
