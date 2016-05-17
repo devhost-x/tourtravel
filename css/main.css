@@ -675,7 +675,7 @@ input.search-form:hover {
 }
 
 .tour-highlight-wrap {
-  padding: 40px 30px;
+  /*padding: 40px 30px;*/
   background: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
@@ -700,14 +700,18 @@ input.search-form:hover {
 
 .tour-highlight-wrap .media-body {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 15px 30px 40px 30px;
 }
 
 .tour-highlight-wrap .price {    
   color: #fff;
+  top: 175px;
+  left: 22%;
   width: 150px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  position: absolute;  
   font-size: 16px;
-  margin-top: -10px;
   background-color: #47a0ff;
 }
 
@@ -717,7 +721,7 @@ input.search-form:hover {
 
 .tour-highlight-wrap a.booknow {    
   color: #fff;
-  padding: 15px 15px;
+  padding: 9px 15px;
   border-radius: 5px;
   background: #FD9536;
 }    
@@ -1199,12 +1203,17 @@ a.accordion-toggle  i{
 }
 
 #aboutus .container {
+  padding: 10px 50px 30px 50px;
   background: rgba(0, 0, 0, 0.21);
 }
 
 #aboutus h2, 
 #aboutus h3 {
   color: #fff;
+}
+
+#aboutus p {
+  text-align: justify;
 }
 
 .partners ul {
